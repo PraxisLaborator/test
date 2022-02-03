@@ -1,0 +1,99 @@
+<html><head><link rel="stylesheet" type="text/css" href="Include/frame.css">
+	<link rel="stylesheet" type="text/css" href="Menu/style.css">
+	
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		.patientData {
+		  border-collapse: collapse;
+		  border-spacing: 0;
+		  width: 100%;
+		  border: 1px solid #ddd;
+		  font-size: 13px;
+		}
+		table.patientData td {
+			padding: 4px;
+		}
+		.patientResultData {
+		  border-collapse: collapse;
+		  border-spacing: 0;
+		  width: 100%;
+		  border: 1px solid #ddd;
+		  font-size: 13px;
+		}
+		table.patientResultData td,th {
+			padding: 4px;
+		}
+		table.patientResultData th {
+			background-color: #f2f2f2
+		}
+	</style>
+<title>EasyMedical - Patient verfication data</title></head>
+
+
+
+
+<body style="background-color:white" onload="javascript:m_onload();" onmouseup="javascript:bodyOnClick(event)">
+<script>
+	function getScrollBottom(p_oElem){
+		return p_oElem.scrollHeight - p_oElem.scrollTop - p_oElem.clientHeight;
+	}
+	function m_onload(){
+	
+	}
+	function bodyOnClick(e){
+	}
+</script>
+
+
+<!-- de aici incepepagina-->
+<script>
+	function formOnClick(tag){
+	}
+</script>
+<form id="mForm" name="mForm" onclick="javascript:formOnClick(this)" action="" method="">
+
+	<div>
+		<img src="/EM_ONLINE/images/Client/sigla_dorna.png" alt="" width="120"> 
+    </div>
+	<hr>
+	<br><br>
+	
+	<div align="center"><b>DATE VERIFICARE PACIENT<br>PATIENT VERIFICATION DATA</b></div>
+	<br>
+	<div style="overflow-x:auto;">
+		<table width="100%" class="patientData">
+			<tbody><tr>
+				<td align="left" nowrap=""><b>Nume / Name:</b></td>
+				<td nowrap="">ADRIAN ZOITUC</td>
+			</tr>
+			<tr>
+				<td align="left" nowrap=""><b>Cod laborator / Laboratory code:<b></b></b></td>
+				<td>607234</td>
+			</tr>
+			<tr>
+				<td align="left" nowrap=""><b>Data inregistrarii / Registration Date:</b></td>
+				<td>01/17/2022 09:58</td>
+			</tr>
+		</tbody></table>
+	<br>
+		<table width="100%" class="patientResultData">
+			<tbody><tr>
+				<th align="left" nowrap=""><b>Analiza / Analyse:</b></th>
+				<th align="left" nowrap="">Rezultat / Result</th>
+			</tr>
+			
+					<tr>
+						<td align="left" nowrap=""><b>Ag SARS CoV-2 (COVID19)<b></b></b></td>
+						<td>Negativ&nbsp;/&nbsp;Negative</td>
+					</tr>
+					
+			
+		</tbody></table>
+	<div>
+	
+
+
+
+
+</div></div></form></body></html>
